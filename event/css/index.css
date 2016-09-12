@@ -223,14 +223,15 @@ p{
 /*-------------------------------------*/
 
 table{
-	border-top: 1px solid #ccc;
+	border-top: 1px solid;
 	width: 100%;
 	margin-bottom: 30px;
 }
 table th,
 table td{
 	padding: 14px 0;
-	border-bottom: 1px solid #ccc;
+	border: 1px solid;
+  text-align: center;
 }
 table th{
 	padding-right: 16px;
@@ -331,3 +332,12 @@ div.txtTemp7 p{ float: left; width: 320px;}
 
 .mB20 img { width: 100%; }
 .fL img { width: 350px; }
+
+#mainContents img {
+    width: 100%;
+}
+
+#schedule {
+    width: 400px !important;
+    margin-bottom: 20px;
+}

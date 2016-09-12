@@ -26,7 +26,8 @@ div#mainContents{
 
 /* ３つのトピックス */
 div#mainContents div.topicsBox{
-	width: 265px;
+  width: 250px;
+  height: 200px;
 	float: left;
 	margin-left: 33px;
 	margin-bottom: 60px;
@@ -139,4 +140,9 @@ div#bannerBox ul li{
 
 div#bannerBox ul li a img {
   width: 100%;
+}
+
+.topicsBox {
+    border: 1px solid #ccc;
+    padding: 5px;
 }
