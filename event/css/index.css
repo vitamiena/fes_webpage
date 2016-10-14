@@ -1,5 +1,8 @@
 @charset "utf-8";
-
+@font-face {
+    font-family: 'Rounded M+';
+    src: url(./rounded-mplus/rounded-mplus-1p-regular.ttf)
+}
 /*-------------------------------------*/
 
 #gNavi{
@@ -340,4 +343,9 @@ div.txtTemp7 p{ float: left; width: 320px;}
 #schedule {
     width: 400px !important;
     margin-bottom: 20px;
+}
+
+div.event-text {
+    font-size: 20px;
+    font-family: 'Rounded M+';
 }
